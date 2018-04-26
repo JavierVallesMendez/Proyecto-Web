@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>registro</title>
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/formulario.css">
+</head>
+<body style="overflow-x:hidden;">
+	<header>
+		<div class="logo-cne">
+			<a href="inicio.html"><img src="images/logo-cne.png" alt="logo del cne"></a>
+		</div>
+		<div>
+			<p>Registro Civil de Chivacoa</p>
+		</div>
+	</header>
+	<main>
+		<form action="#" class="formulario" method="post" name="formulario" onsubmit="return validar();">
+			<h1 class="formulario--titulo">Registro</h1>
+			<br>
+			<hr>
+			<br>
+			<input type="text" id="nombre" name="nombre" autofocus="" class="formulario--input">
+			<label for="nombre" class="formulario--label">Nombre:</label>
+			<input type="text" id="apellido" name="apellido" autofocus="" class="formulario--input">
+			<label for="apellido" class="formulario--label">Apellido:</label>
+			<input type="number" id="cedula" name="cedula" autofocus="" class="formulario--input">
+			<label for="cedula" class="formulario--label">Cedula:</label>
+			<select name="tipo" id="tipo" class="formulario--input">
+				<option value="1">Eres:</option>
+				<option value="2">--------------</option>
+				<option value="3">Administrador</option>
+				<option value="4">Funcionario</option>
+			</select>
+			<input type="password" id="Contraseña" name="contraseña" autofocus="" class="formulario--input">
+			<label for="contraseña" class="formulario--label">Contraseña:</label>
+			<input type="text" id="pregunta" name="pregunta-verificacion" autofocus="" class="formulario--input" id="pregunta-secreta">
+			<label for="pregunta-secreta" class="formulario--label">Pregunta secreta:</label>
+			<input type="text" id="codigo" name="codigo-verificacion" autofocus="" class="formulario--input"
+			id="clave-secreta">
+			<label for="Respuesta" class="formulario--label">Respuesta:</label>
+			<input type="submit" class="formulario--submit" value="Registrar">
+			<script src="js/validarRegistro.js"></script>
+			<script src="js/animacion-formulario.js"></script>
+		</form>
+	</main>
+	<footer>
+	</footer>
+</body>
+</html>

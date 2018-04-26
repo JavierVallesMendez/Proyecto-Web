@@ -1,0 +1,110 @@
+h1{
+	position: relative;
+	left: 38%;
+}
+
+.divisor{
+	position: relative;
+	left:460px;
+	top: 50px;
+
+}
+
+
+
+#title-form{
+	font-family: verdana;
+	font-size: 24px;
+	background-color: #e40a0a;
+	font-style: oblique;
+	height: 40px;
+	color: #faffe8;
+}
+/* Nombre del formulario*/
+.descripcion{
+
+	height: 40px;
+	font-family: verdana;
+
+}
+/*Datos del formulario*/
+.valor{
+	padding: 12px;
+
+
+}
+
+/*Boton de registro*/
+.boton1{
+
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2; 
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	right: 10px;
+	top:15px;
+
+
+}
+
+
+
+
+.boton2{
+
+
+	height: 40px;
+
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2; 
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+	left: 200px;
+	top:12px;
+}
+
+
+
+
+table tr .valor:hover{
+
+	background-color: #e40a0a;
+
+}
+.boton1:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+
+.boton2:hover {
+	background: rgba(0,0,0,0);
+	color: #3a7999;
+	box-shadow: inset 0 0 0 3px #3a7999;
+}
+
+.boton2-1{
+
+	border: none;
+	background: #3a7999;
+	color: #f2f2f2; 
+
+}
+
+.s-a-n{
+	display: inline-block;
+	position: relative;
+	left: 32%;
+	top: 30px;
+}

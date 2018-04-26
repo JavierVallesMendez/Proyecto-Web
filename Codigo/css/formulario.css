@@ -1,0 +1,105 @@
+*{
+	box-sizing: border-box;
+	font-family: arial, helvetica, san-serif;
+	font-size: 10pt;
+	text-decoration: none;
+
+}
+
+.formulario{
+	width: 31%;
+	max-width: 100%;
+	padding: 20px;
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 30px;
+	position: relative;
+}
+
+.formulario--titulo{
+	text-align: center;
+	margin-top: 0;
+	color: rgba(0,0,0,0.7);
+	font-size:18pt;
+}
+
+.formulario--input, .formulario--label,
+.formulario--submit{
+	display: block;
+	width: 100%;
+	min-width: 100%;
+	margin-bottom: 50px;
+	font-size: 1.3em;
+}
+
+.formulario--input{
+	padding: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	margin-top: 20px;
+	background: transparent;
+}
+
+.formulario--input:focus{
+	outline: 1px solid rgba(0,0,0,0.7);
+}
+
+.formulario--input:focus + .formulario--label{
+	margin-top: -135px;
+	transition: all 0.2s;
+}
+
+.formulario--label{
+	padding-left: 15px;
+	position: absolute;
+	margin-top: -85px;
+	z-index: -20;
+	color: rgba(0,0,0,0.5);
+}
+
+.formulario--submit{
+	background: rgba(0,0,0,0.4);
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+
+}
+
+.formulario--submit{
+	
+	margin-right: 10px;
+	margin-bottom: 100px;
+}
+
+.BotonRegistro{
+	position: absolute;
+	background: rgba(0,0,0,0.4);
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	border: none;
+	display: block;
+	width: 229px;
+	min-width: auto;
+	font-size: 1.3em;
+	top: 70%;
+	transform: translateY(10px);
+	text-decoration: none;
+	
+}
+
+
+
+
+.fijar{
+	margin-top: -135px;
+}
+
+button>a{ 
+
+	margin:1em 0; float:left; clear: left;
+
+}
+.formulario a.link{
+	color: red;
+}

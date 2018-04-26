@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0; 
+}
+
+
+#header{
+	position: relative;
+	margin: auto;
+	font-family: arial, helvetica, san-serif;
+	width: 120%;
+	top: 3.5%;
+
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.nav li a{
+	background: #a70404;
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 15px;
+	display: block;
+}
+
+.nav li a:hover{
+	background: #434343;
+}
+
+.nav > li{
+	float: left;
+	width: 15%;
+}
+
+.nav li ul{
+	display: none;
+	position: absolute;
+	min-width: 140px;
+	width: 15%;
+}
+.nav li:hover > ul{
+	display: block;
+	z-index: 1;
+}

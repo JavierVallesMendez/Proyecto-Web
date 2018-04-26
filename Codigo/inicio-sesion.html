@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Sistema de Procesamiento de Actas</title>
+	<link rel="stylesheet" href="css/formulario.css">
+	<link rel="stylesheet" href="css/estilo.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<script src="js/validaciones.js"></script>
+</head>
+<body style="overflow-x:hidden;">
+	
+	<header>
+		<div class="logo-cne">
+			<a href="inicio.html"><img src="images/logo-cne.png" alt="logo del cne"></a>
+		</div>
+		<div>
+			<p>Registro Civil de Chivacoa</p>
+		</div>
+		
+
+		<br>
+		<br>
+		<br>
+
+		<form action="inicio.html" method="post" class="formulario" onsubmit="return validarInicio();">
+			<h1 class="formulario--titulo">Inicio de sesion</h1>
+			<br><hr><br>
+			<input type="text" id="usuario" name="usuario" maxlength="30" autofocus="" class="formulario--input">
+			<label for="usuario" class="formulario--label">Usuario: </label>
+			<input type="password" id="contraseña" name="contraseña"  class="formulario--input" maxlength="30">
+			<label for="contraseña" class="formulario--label">Contraseña: </label>
+			<br><br>
+			<input type="submit" class="formulario--submit" value="Aceptar">
+
+			<button><a href="registro.html" class="BotonRegistro">Registrate</a></button>
+			<a href="rec-contraseña" class="link">¿Ha olvida la contraseña?</a> <br>
+			<a href="#" class="link">¿Olvido su usuario?</a>
+		</form>
+
+
+
+
+
+
+	</body>
+	</html>
